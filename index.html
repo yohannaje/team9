@@ -1,16 +1,51 @@
 <html>
 <head>
-  <style media="screen">
-    body{
-      width: 100%;
-    }
-    img {
-      width: 100%;
-    }
-  </style>
+<style>
+@-webkit-keyframes argh-my-eyes {
+  0%   { background-color: #0E1555; }
+  49% { background-color: #4E1184; }
+  50% { background-color: #932B77; }
+  70% { background-color: #FD367E; }
+  100% { background-color: #F9C535; }
+}
+@-moz-keyframes argh-my-eyes {
+  0%   { background-color: #0E1555; }
+  49% { background-color: #4E1184; }
+  50% { background-color: #932B77; }
+  70% { background-color: #FD367E; }
+  100% { background-color: #F9C535; }
+}
+@keyframes argh-my-eyes {
+  0%   { background-color: #0E1555; }
+  49% { background-color: #4E1184; }
+  50% { background-color: #932B77; }
+  70% { background-color: #FD367E; }
+  100% { background-color: #F9C535; }
+}
+body {
+-webkit-animation: argh-my-eyes 1s infinite;
+-moz-animation:    argh-my-eyes 1s infinite;
+animation:         argh-my-eyes 1s infinite;
+}
+
+h1{
+  font-size: 200px;
+  color: #fff;
+}
+.awesome{
+  width: 100%;
+  text-align: center;
+}
+.awesome h1{
+  padding-top: 200px;
+
+}
+</style>
 </head>
 <body>
-<img src= "https://heavyeditorial.files.wordpress.com/2013/05/stevie.gif?w=780"
+  <div class="awesome">
+    <h1>YOU ARE AWESOME</h1>
+  </div>
 </body>
 
 </html>
